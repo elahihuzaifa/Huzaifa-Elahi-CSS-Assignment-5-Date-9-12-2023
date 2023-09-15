@@ -1,0 +1,283 @@
+ @font-face {
+     font-family: Gilroy;
+     src: url(fonts/Glory/Glory-VariableFont_wght.ttf);
+ }
+
+ @font-face {
+     font-family: bool;
+     src: url(fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+ }
+
+
+
+ @media only screen and (max-width: 1090px) {
+
+     .d-flex.p-2.download_images {
+         width: 25%;
+     }
+
+     .imgo_one {
+         width: 142px;
+         /* display: flex; */
+     }
+
+     s .imgo_two {
+         width: 142px;
+         display: flex;
+         margin-left: -114px;
+
+     }
+
+
+
+
+
+
+ }
+
+ @media only screen and (max-width: 820px) {
+     .justify-content-end {
+         display: none !important;
+
+     }
+
+     .d-flex.p-2.responsev {
+         visibility: visible !important;
+         height: 66px;
+     }
+
+     .d-flex.p-2.mid {
+         flex-direction: column-reverse;
+         align-items: center;
+     }
+
+     .d-flex.p-2.mid_two {
+         width: 100%;
+         justify-content: space-around;
+     }
+
+
+     .d-flex.flex-column {
+         justify-content: center;
+
+     }
+
+ }
+
+ button.btn.btn-outline-primary {
+     border-radius: 5.952px;
+     background: #75BF7A;
+     color: white;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .d-flex.p-2.middle {
+     width: 40%;
+ }
+
+
+ .heading {
+     font-size: 61px;
+     font-weight: 800;
+     line-height: 66px;
+     letter-spacing: 0em;
+ }
+
+ .paragraph {
+     line-height: 21px;
+     letter-spacing: 0em;
+ }
+
+ .download_images {
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 28px;
+     letter-spacing: 0em;
+     text-align: left;
+
+ }
+
+ .d-flex.flex-column {
+     align-items: center;
+
+ }
+
+ .d-flex.p-2.mid {
+     justify-content: space-around;
+     background: #F9F9F9;
+     margin-top: 12px;
+     align-items: center;
+ }
+
+
+ img.image_loco {
+     height: 361px;
+     width: 480px;
+ }
+
+
+ img.imgo_two {
+     position: absolute;
+     left: 325px;
+ }
+
+
+
+ .d-flex.p-2.img {
+     display: flex;
+     justify-content: start;
+     gap: 20px;
+ }
+
+ .slider {
+     background: #75BF7A;
+     border: 1px solid;
+     border-radius: 5px;
+
+ }
+
+ .slider_paragraph {
+     font-size: 23px;
+     line-height: 27px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: white;
+     display: flex;
+ }
+
+ .slider_input {
+     font-family: Gilroy;
+     font-size: 25px;
+     line-height: 34px;
+ }
+
+ .slider_input input {
+     width: 100%;
+ }
+
+ .btn {
+     font-family: Gilroy;
+     font-size: 22px;
+     font-weight: 800;
+     letter-spacing: 0em;
+     border: none;
+     padding: 18px 26px;
+     color: #fff;
+     border-radius: 4.393px;
+     background: #75BF7A;
+
+ }
+
+ .btn:hover {
+     color: #000;
+     background: #fff;
+ }
+
+
+ @media (min-width: 1400px) {
+
+     .container,
+     .container-lg,
+     .container-md,
+     .container-sm,
+     .container-xl,
+     .container-xxl {
+         max-width: 1620px;
+     }
+ }
+
+ section {
+     background: #F9F9F9;
+ }
+
+ .slider_drive_btn {
+     font-family: Gilroy;
+     font-size: 22px;
+     font-weight: 800;
+     letter-spacing: 0em;
+     border: none;
+     padding: 18px 26px;
+     color: #fff;
+     border-radius: 4.393px;
+     background: #000000;
+
+ }
+
+ .pg1 {
+     color: black;
+ }
+
+ .slider-mobile:before {
+     content: "";
+     width: 500px;
+     height: 500px;
+     display: block;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     border-radius: 50%;
+     z-index: 0;
+     background: #75BF7A;
+ }
+
+ .num_order {
+     font-size: 64px;
+     color: green;
+     font-weight: bolder;
+ }
+
+ .section4 {
+     font-family: Gilroy;
+     font-size: 20px;
+ }
+
+ h1 {
+     font-family: Gilroy;
+ }
+
+
+ .colr {
+     background: white;
+ }
+
+ .heading_ol {
+     font-family: bool;
+     font-weight: bolder;
+ }
+
+ .col-md-3 ul li {
+     list-style-type: none;
+     font-family: bool;
+     font-weight: bolder;
+ }
+
+ @media only screen and (max-width: 767px) {
+     .section1 .row {
+         flex-direction: column-reverse;
+         text-align: center;
+     }
+
+     .col-md-3 {
+         order: 1;
+         text-align: center;
+
+     }
+
+
+
+
+     .slider-mobile:before {
+         width: 380px;
+         height: 380px;
+     }
+
+     footer .col-md-2 {
+         text-align: center;
+     }
+
+ }
